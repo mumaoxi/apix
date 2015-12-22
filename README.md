@@ -22,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+###手机归属地获取
+```ruby
+it 'does something useful' do
+    Apix.Q_CELL_CORE_KEY = 'your key'
+    expect(Apix.get_location_by_phone('15201280641')['error_code']).to eq(0)
+end
+```
 
 ## Development
 
