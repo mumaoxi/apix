@@ -35,5 +35,6 @@ bower.json
 # Ignore pow environment settings
 .powenv
 /.idea/
+/pkg/
 
 # Created by .ignore support plugin (hsz.mobi)

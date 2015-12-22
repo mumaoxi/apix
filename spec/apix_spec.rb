@@ -6,6 +6,7 @@ describe Apix do
   end
 
   it 'does something useful' do
-    expect(false).to eq(true)
+    Apix.Q_CELL_CORE_KEY = '#'
+    expect(Apix.get_location_by_phone('15201280641')['error_code']).to eq(0)
   end
 end
